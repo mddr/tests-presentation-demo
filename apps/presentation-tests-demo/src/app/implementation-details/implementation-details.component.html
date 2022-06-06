@@ -1,0 +1,12 @@
+<button type="button" (click)="fetchData()">Fetch from API</button>
+
+<section aria-labelledby="food-list-header">
+  <h2 id="food-list-header">Content</h2>
+
+  <ul *ngIf="data$ | async as data" aria-label="List of food">
+    <li *ngFor="let row of data">
+      <strong>{{ row.dish }}</strong>
+      <span>{{ row.description }}</span>
+    </li>
+  </ul>
+</section>

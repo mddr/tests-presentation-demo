@@ -1,0 +1,12 @@
+strong {
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+}
+
+button {
+    font-family: 'Oswald', sans-serif;
+    background: none;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
